@@ -1,0 +1,11 @@
+version: '2'
+services:
+  sshd:
+    build:
+      context: ./sshd
+    ports:
+      - "3022:22"
+    environment:
+      TZ: "Asia/Tokyo"
+    tty: true
+    stdin_open: true
