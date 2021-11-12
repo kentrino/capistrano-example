@@ -1,0 +1,47 @@
+# Logfile created on 2021-11-12 17:39:26 +0900 by logger.rb/v1.4.3
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-11-12 17:39:26 +0900 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d08039d3] Running /usr/bin/env mkdir -p /tmp as root@localhost
+ DEBUG [d08039d3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [d08039d3] Finished in 0.123 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-3d14ecc68397e4412594.sh 0.0%
+  INFO Uploading /tmp/git-ssh-3d14ecc68397e4412594.sh 100.0%
+  INFO [61a946bd] Running /usr/bin/env chmod 700 /tmp/git-ssh-3d14ecc68397e4412594.sh as root@localhost
+ DEBUG [61a946bd] Command: /usr/bin/env chmod 700 /tmp/git-ssh-3d14ecc68397e4412594.sh
+  INFO [61a946bd] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [d85aff5f] Running /usr/bin/env git ls-remote  HEAD as root@localhost
+ DEBUG [d85aff5f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-3d14ecc68397e4412594.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [d85aff5f] 	/usr/bin/env: 'git': No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-11-12 17:40:04 +0900 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1d811272] Running /usr/bin/env mkdir -p /tmp as root@localhost
+ DEBUG [1d811272] Command: /usr/bin/env mkdir -p /tmp
+  INFO [1d811272] Finished in 0.110 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ed108734c43047235a1b.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ed108734c43047235a1b.sh 100.0%
+  INFO [7778ec18] Running /usr/bin/env chmod 700 /tmp/git-ssh-ed108734c43047235a1b.sh as root@localhost
+ DEBUG [7778ec18] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ed108734c43047235a1b.sh
+  INFO [7778ec18] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [2f51e868] Running /usr/bin/env git ls-remote  HEAD as root@localhost
+ DEBUG [2f51e868] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ed108734c43047235a1b.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [2f51e868] 	/usr/bin/env: 'git': No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-11-12 17:42:22 +0900 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7a8c9ef6] Running /usr/bin/env mkdir -p /tmp as root@localhost
+ DEBUG [7a8c9ef6] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7a8c9ef6] Finished in 0.124 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-6253e167807fda30467d.sh 0.0%
+  INFO Uploading /tmp/git-ssh-6253e167807fda30467d.sh 100.0%
+  INFO [8528dcdb] Running /usr/bin/env chmod 700 /tmp/git-ssh-6253e167807fda30467d.sh as root@localhost
+ DEBUG [8528dcdb] Command: /usr/bin/env chmod 700 /tmp/git-ssh-6253e167807fda30467d.sh
+  INFO [8528dcdb] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [cb50280c] Running /usr/bin/env git ls-remote  HEAD as root@localhost
+ DEBUG [cb50280c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-6253e167807fda30467d.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [cb50280c] 	fatal: 'HEAD' does not appear to be a git repository
+ DEBUG [cb50280c] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
