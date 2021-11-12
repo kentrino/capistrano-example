@@ -1,0 +1,12 @@
+description "<%= fetch(:application) %> sleep 5 script"
+    
+start on (local-filesystem and net-device-up)
+stop on shutdown
+
+respawn
+respawn limit 5 60
+
+script
+    echo 'hello'
+    sleep 5
+end script
